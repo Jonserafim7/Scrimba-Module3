@@ -1,2 +1,2 @@
 # Scrimba-Module3
-Making websites interactive
+Making websites interactive - JS Basics

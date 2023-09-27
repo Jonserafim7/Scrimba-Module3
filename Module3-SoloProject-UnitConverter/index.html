@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main-container">
+        <div id="header-container">
+            <p id="header-title">Metric/Imperial Unit Conversion</p>
+            <input id="user-inpt" type="text">
+            <button id="conversion-btn">Convert</button>
+        </div>
+        <div id="main-conversion-container">
+            <div id="lenght-box" class="individual-conversion-container">
+                <h3 class="metric-title">Length (Meters/Feet)</h3>
+                <p class="metric-paragraph" id="length-display"></p>
+            </div>
+            <div id="volume-box" class="individual-conversion-container">
+                <h3 class="metric-title">Volume (Liters/Gallons)</h3>
+                <p class="metric-paragraph" id="volume-display"></p>
+            </div>
+            <div id="mass-box" class="individual-conversion-container">
+                <h3 class="metric-title">Mass (kilograms/Pounds)</h3>
+                <p class="metric-paragraph" id="mass-display"></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

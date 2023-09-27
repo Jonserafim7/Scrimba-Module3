@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222553fa;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    background: #1B1924;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    min-height: 100vh;
+    margin: 30px auto;
+
+}
+
+#hero-container {
+    /* background-color: gray; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+}
+
+#hero-logo {
+    width: 90px;
+    margin: 51px 150px 17px 150px;
+}
+
+#hero-title {
+    margin:0 60px 19px 60px;
+}
+
+#endorsement-inpt {
+    background-color: #444059;
+    padding: 15px;
+    margin: 0 37px 9px 37px;
+    width: 317px;
+    height: 118px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    text-align: left; /* Set text alignment to left */
+    resize: none; /* To prevent resizing of the textarea by the user */
+
+    /* typograpgh */
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sender-receiver-container{
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 317px;
+    gap: 10px
+}
+
+.sender-receiver-inpt {
+    /* Layout */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    width: 152.852px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #444059;
+    text-align: center;
+
+    /* typograpgh */
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#publish-btn {
+    /* Layout */
+    width: 317px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #28A9F1;
+    margin: 9px auto 0 auto;
+    border: none;
+    padding: 0;
+    /* typograpgh */
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#endonserments-separator {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* js tests */
+
+
+.endorsement-container {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* This will evenly distribute space */
+    padding: 10px;
+    width: 317px;
+    height: 129px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.endorsement-sender, .endorsement-receiver, .endorsement-text {
+    text-align: left;
+    margin: 0;
+}
+
+.endorsement-text {
+    word-wrap: break-word;       /* Allows long words to be broken and wrap onto the next line */
+    overflow-wrap: break-word;   /* Same as word-wrap, but with better support in newer browsers */
+    white-space: normal;         /* Collapses sequences of whitespace, and allows content to wrap onto the next line */
+}
+
+#last-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-btn {
+    border: none;
+    background: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

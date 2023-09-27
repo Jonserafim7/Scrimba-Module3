@@ -1,0 +1,182 @@
+body {
+    margin:0;
+    font-family: 'Karla', sans-serif;
+    background: #1C1C1C;
+}
+
+#main-container {
+    width: 550px;
+    height: auto;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto 64px auto;
+    /* justify-content: space-around; */
+}
+
+.separator-img {
+    margin: 35px auto 35px auto;
+ }
+
+/* ---------Header------------ */
+
+#header-container {
+    /* background: blue; */
+    margin: 115px 52px 0 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header-h3 {
+    /* background: purple; */
+    margin: 0;
+    width: 354px;
+    color: var(--white, #FFF);
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    /* line-height: 40px; 100% */
+    letter-spacing: -1px;
+   
+}
+
+#header-paragraph {
+    /* background-color: red; */
+    width: 372px;
+    margin: 10px 0 0 0;
+    /* text-xl/leading-7/font-normal */
+    color: var(--Medium-grey, #D5D4D8);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 28px; 140% */
+}
+
+#header-span {
+    color: #4ADF86; 
+}
+
+/* ---------password user preferences------------ */
+
+
+#preferences-container {
+    /* background: red; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    margin-left: 52px;
+    margin-right: 52px;
+
+}
+
+#preferences-paragraph {
+    /* background: black; */
+    margin: 0;
+    color: #4ADF86;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+#preferences-label-slidebar-container {
+    /* background-color: blue; */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#range-label {
+    /* background-color: green; */
+    margin: 0;
+    width: 140px;
+    color: var(--white, #FFF);
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */; 
+    text-align: center; 
+}
+
+#number-input {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #4ADF86;;
+}
+
+#preferences-checkboxes {
+    /* background: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */; 
+    text-align: center; 
+}
+
+
+/* ---------password button and display------------ */
+
+#gen-pass-btn {
+    width: 192px;
+    height: 42px;
+    margin: 0px auto 35px auto;
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: var(--white, #FFF);
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */   
+}
+
+
+
+#pass-displays-container {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 52px 115px 52px;
+}
+
+.pass-box {
+    background-color: yellow;
+    width: 211px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    background: #273549;
+    color: #55F991;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+}

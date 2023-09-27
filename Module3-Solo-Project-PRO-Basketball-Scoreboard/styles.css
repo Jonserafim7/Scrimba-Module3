@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(/fonts/CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1587960184060-aa880aabdd04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    margin: 50px auto 50px auto;
+    background-color: #1B244A;
+    border: 3px solid #F94F6D;
+    border-radius: 5px;
+}
+
+#container-scores {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 575px;
+}
+
+.header {
+    margin: 68px 0 px 0;
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    text-shadow: 0px 0px 4px #F94F6D;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.score-display {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    line-height: 120px;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-section {
+    margin: 26px 0 20px 0;
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#reset-btn {
+    border: 2px solid black;
+    height: 40px;
+    width: 80px;
+    background: #1B244A;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    padding: 5px 10px;
+    line-height: 18px;
+    background: #F94F6D;
+}

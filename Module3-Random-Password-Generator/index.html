@@ -1,0 +1,55 @@
+s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <!-- -----------------Header------------------------- -->
+        <div id="header-container">
+            <h3 id="header-h3">Generate a <span id="header-span">random password</span></h3>
+            <p id="header-paragraph">Never use an insecure password again.</p>
+        </div>
+        <!-- ------------------------------------------ -->
+        <img class = "separator-img" src="images/Line 17.png">
+        <!-- ---------------Preferences------------------- -->
+        <div id = "preferences-container">
+            <p id="preferences-paragraph">Set password preferences:</p>
+            <div id="preferences-label-slidebar-container">
+                <label id="range-label" for="pass-len">Password Lenght (1 to 12):</label>
+                <input type="number" id="number-input" min="1" max="12" value="6"> 
+                <input type="range" id="range-slider" name="pass-len-inpt" min="1" max="12">
+            </div>
+            <div id="preferences-checkboxes">
+                <div>
+                    <input type="checkbox" id="includeNumbers" checked>
+                    <label for="includeNumbers">Include Numbers</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="includeSpecialChars" checked>
+                    <label for="includeSpecialChars">Include Special Characters</label>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------ -->
+        <img class = "separator-img" src="images/Line 17.png">
+        <!-- ---------------Password button and display----------------- -->
+        <button id = "gen-pass-btn" onclick = "displayRandomPassword ()">Generate passords</button>
+        <div id="pass-displays-container">
+            <div id = "pass1" class="pass-box"></div>
+            <div id = "pass2" class="pass-box"></div>
+        </div>
+    </div>  
+<script src="index.js">
+</script> 
+</body>
+</html>
